@@ -1,0 +1,16 @@
+HackerEarth Machine Learning challenge: Adopt a buddy.
+
+I have trained different model for pet_category and Breed_category.
+
+Breed Category--
+Here first Observation was the missing values of condition column has breed category 2.So,i have filled missing values with -1.
+I have used Color_type feature for extraction more features from it and convert in numerical values.
+Took the date , day ,month,year from listing and issue date columns.
+Trained the model using Random Forest model.
+
+Pet CAtegory--
+Used the predicted breed category too from above.
+USed simple imputer as it doesn't have a particular pattern like breed category for missing values.
+I have used Color_type feature for extraction more features from it and convert in numerical values.
+Took the date , day ,month,year from listing and issue date columns.
+Trained the model using Xgboost model.
